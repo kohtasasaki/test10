@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="btn1">ボタン1</div>
+  <div id="btn2">ボタン2</div>
+
+  <script>
+
+
+    // // これを用いることで場所を特定することができる（取得する）
+    // document.getElementById('btn');
+    // // document.getElementById('btn2');
+    // // document.getElementById('btn2')
+    //
+    // var btn = document.getElementById('btn');
+    //
+    // //何かをしたら何かを発動させる
+    // //クリック表示を切り替える
+    //
+    // btn.addEventListener('click',function(){
+    //   btn.innerHTML = '<h1>変更したよ</h1>';
+    // }
+    // );
+
+    /*
+    1.btn1には <h1>はじめてのJavascript</h1>を表示
+    2.btn2にはすきな画像を表示
+    */
+
+    document.getElementById('btn1');
+    var btn = document.getElementById('btn1');
+
+    document.getElementById('btn2');
+    var btn = document.getElementById('btn2');
+
+    btn1.addEventListener('click',function(){
+      btn1.innerHTML = '<h1>はじめてのJavascript</h1>';
+    }
+    );
+
+    btn2.addEventListener('click',function(){
+      btn2.innerHTML = '<img src="https://saint-marc-kamakura.s3.amazonaws.com/7014/6389/7324/a6e599b71baccdc59b6184325cf8ee69.jpg" alt="" />';
+    }
+    );
+
+
+
+    // console.log("はじめてのJavaScript");
+    // console.log();は非常によく使う。途中の処理がきちんと動いているかを確認するため。
+    // console.log(3);
+    // console.log(5+3);
+    // console.log(5-1);
+    // console.log(23+5);
+    // console.log(2000-1800);
+    // console.log("18+5");
+    // console.log(23*5);
+    // console.log(2000/1800);
+    // console.log(23 % 3);
+    // var name = "佐々木皇太";
+    // // 変数名は数字からはじめてはいけない。
+    // // var...変数の宣言（phpでは$）
+    // console.log(name);
+    // console.log("name");
+
+    // var point = "80";
+    // if (point >= 80) {
+    //   console.log("素晴らしい！おめでとう！");
+    // }
+    // else {
+    //   console.log("もっと頑張りましょう");
+    // }
+    // var rand =     Math.floor(Math.random() * 5)
+    // // console.log(rand);
+    // if (rand == 0) {
+    //   console.log("すごい");
+    // }
+    // else if (rand == 1) {
+    //   console.log("すごいね");
+    // }
+    // else if (rand == 2) {
+    //   console.log("ふつう");
+    // }
+    // else if (rand == 3) {
+    //   console.log("いまいち");
+    // }
+    // else  {
+    //   console.log("残念");
+    // }
+    //
+    // // 配列
+    //
+    // var array = ['a','b','c'];
+    // console.log(array);
+    //
+    // // 配列を作る
+    // /*
+    //
+    // ぶどう
+    // りんご
+    // ばなな
+    // さくらんぼ
+    // めろん
+    // おれんじ
+    // */
+    //
+    // var array = ['ぶどう','りんご','ばなな','さくらんぼ','めろん','おれんじ'];
+    // console.log(array);
+    //
+    // array.unshift('ぱいなっぷる');
+    // array.push('すいか');
+    //
+    // var i = 0;
+    // for(i = 0; i <50; i++){
+    //   console.log(i);
+    // }
+
+
+
+  </script>
+</body>
+</html>
